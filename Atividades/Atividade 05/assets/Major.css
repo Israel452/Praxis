@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;700&display=swap');
+
+
+    *, 
+    *:after,
+    *:before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    
+    html{
+    
+        font-size: 62.5%;
+        font-family: 'Dosis', sans-serif;
+    }
+    
+    :root{
+
+        --red-500: #E83046;
+        --red-200: #D56262;
+        --black-100: #000000;
+        --white-100: #FFFFFF;
+    
+        --pading-section: calc((100vw - 1200px)/2 );
+        --pading-but:24px;
+        --nav-height:100px;
+    }
+
+    .Paddin_section_line{
+
+        padding-right: var(--pading-section);
+        padding-left: var(--pading-section);
+    }
+    
+    .Navbar{
+        
+        background-color: var(--red-500);
+        width: 100vw;
+        height: var(--nav-height);
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+    
+        position:fixed;
+        top:0;
+        left:0;
+        z-index: 99;
+
+        padding-left: var(--pading-section);
+        padding-right: var(--pading-section);
+
+    }
+
+    .Navbar_img{
+
+        height: 70%;
+
+    }
+
+    .Navbar_form{
+
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        gap: 90px;
+    
+    }
+
+    .Navbar_link{
+
+        color: var(--white-100);
+        font-size: 2.2rem;
+        transition: 0.2s ease;
+    }
+
+    .Footer_bar{
+
+        height: 150px;
+        background-color: var(--red-500);
+        padding-left: var(--pading-section);
+        padding-right: var(--pading-section);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+
+    .Footer_text{
+        color: var(--white-100);
+        font-size: 2rem;
+    
+    }
+
+    .Footer_text_two{
+        color: var(--white-100);
+        font-size: 2rem;   
+        text-decoration: underline;
+    
+    }
+
+
+    @media (min-width: 1440px){
+
+        .Navbar{
+            
+            padding-left: var(--pading-section);
+            padding-right: var(--pading-section);
+        }
+    }
+
+    @media (max-width: 999px) {
+        .Footer_bar {
+          padding-top: 25px;
+          padding-bottom: 25px;
+          flex-direction: column;
+          align-items: flex-start;
+          background-color: green;
+        }
+        .Footer_text {
+          font-size: 1.4rem;
+        }
+      
+        .Footer_text_two {
+          font-size: 1.4rem;
+        }
+      }

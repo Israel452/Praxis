@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    background-color:#275D7D;
+    margin-bottom: 8%;
+
+}
+
+.Theme_NavBar{
+
+    background-color: #17374A;
+    color: whitesmoke;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+}
+
+.Theme_Email_box{
+
+    margin-left: 20%;
+    margin-right: 15%;
+    margin-top: 8%;
+    color: #46A8E0;
+
+}

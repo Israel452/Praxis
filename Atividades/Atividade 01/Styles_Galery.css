@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color:#B79CB8;
+    margin-bottom: 8%;
+
+}
+
+.Theme_NavBar{
+
+    background-color: #371F38;
+    color: whitesmoke;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+
+}
+
+.Theme_NavBar_link{
+
+    color: wheat;
+    text-decoration: none;
+}
+
+.images_one{
+
+    width: 400px;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-style: groove;
+    border-color: #847185;
+}
+
+.images_two{
+
+    width: 400px;
+    margin-left: 30%;
+    margin-top: 5%;
+    border-style: groove;
+    border-color: #847185;
+}

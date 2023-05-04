@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color:#B79CB8;
+    margin-bottom: 8%;
+
+}
+
+.Theme_NavBar{
+
+    background-color: #371F38;
+    color: whitesmoke;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+
+}
+
+.Theme_NavBar_link{
+
+    color: wheat;
+    text-decoration: none;
+}
+
+.Theme_Section_tittle{
+
+    color: whitesmoke;
+    font-size: 20px;
+
+}
+
+.Theme_Section_text{
+
+    font-size: 18px;
+    color: #383038;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.Theme_Section_chard{
+
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.Theme_Section_chard_text{
+
+    font-size: 14px;
+}
